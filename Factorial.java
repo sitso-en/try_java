@@ -25,5 +25,11 @@ public class Factorial{
         return squaredDiff;
     }
 
-    
+    public static double standardDeviation(){
+        double variance = sumofSquaredDifferences() / 10;
+        double std= Math.sqrt(variance);
 
+        return std;
+    }
+
+    
