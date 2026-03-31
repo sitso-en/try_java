@@ -10,8 +10,8 @@ public class Factorial{
         for (int i=1; i <=10; i++){
             sum+=i;
         }
-        double average = sum /10;
-        return average;
+        double ave = sum /10;
+        return ave;
     }
 
     public static double sumofSquaredDifferences(){
