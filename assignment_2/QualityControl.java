@@ -4,8 +4,7 @@ public class QualityControl {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
         double boardHealth = 100.0;
-        int spikeCount = 0;
-        int userChoice = 1;
+        int spikeCount = 0, userChoice = 1;
 
         do {
             spikeCount++;
