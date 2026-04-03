@@ -2,7 +2,7 @@ public class Factorial{
     public static void main(String[] args){
         int roundedStd =(int) Math.round(standardDeviation());
         int result = factorial(roundedStd);
-        System.out.println("Factorial: " + result);
+        System.out.println("Yo! Factorial: " + result);
     }
 
     public static double average(){
