@@ -5,7 +5,7 @@ public class HeatExperiment{
         Scanner input = new Scanner(System.in);
         double grandTotalAverages =0;
         
-        System.out.print("Enter the number of experiments");
+        System.out.print("Enter the number of experiments conducted");
         int numExperiments=input.nextInt();
 
         for (int i = 1; i <= numExperiments; i++) {
