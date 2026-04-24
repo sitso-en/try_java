@@ -15,6 +15,7 @@ public class Temperature {
         isWaterBoiling iwb = new isWaterBoiling();
         isWaterFreezing iwf= new isWaterFreezing();
 
+        //im alive
         if(ief.checkEthylFreezing(temperature)){
             System.out.println("Ethyl will freeze at " + temperature);
         } 
