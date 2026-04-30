@@ -3,7 +3,7 @@ import java.util.Scanner;
 public class QualityControl {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
-        double boardHealth = 100.0;
+        double boardHealth = 200.0;
         int spikeCount = 0, userChoice = 1;
 
         do {
