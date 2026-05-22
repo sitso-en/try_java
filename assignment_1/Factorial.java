@@ -11,7 +11,7 @@ public class Factorial{
             sum+=i;
         }
         double ave = sum /10;
-        return ave;
+        return average;
     }
 
     public static double sumofSquaredDifferences(){
